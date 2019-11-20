@@ -1,0 +1,60 @@
+html {
+    font-size: 100%;
+    height: 100%;
+    width: 100%;
+}
+  
+body {
+    background: #141414;
+    text-rendering: optimizeLegibility;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Courier New', monospace;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+  
+.clearfix:after {
+    clear: both;
+}
+
+.wrapper {
+    max-width: 980px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+header nav a {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+main p {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+footer {
+    margin-top: 30px;
+}
+
+#cover-img {
+    border: 1px solid #fff;
+}
