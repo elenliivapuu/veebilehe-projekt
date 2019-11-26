@@ -1,3 +1,13 @@
+.dark-theme {
+    background: #141414;
+    color: #fff;
+}
+
+.light-theme {
+    background: #fff;
+    color: #141414;
+}
+
 html {
     font-size: 100%;
     height: 100%;
@@ -5,15 +15,15 @@ html {
 }
   
 body {
-    background: #141414;
     text-rendering: optimizeLegibility;
-    color: #fff;
     -webkit-font-smoothing: antialiased;
     font-family: 'Courier New', monospace;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
 }
 
 a {
-    color: #fff;
+    color: inherit;
     text-decoration: none;
     cursor: pointer;
 }
