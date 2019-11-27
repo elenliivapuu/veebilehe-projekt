@@ -70,7 +70,7 @@ header nav a {
 
 #cover-img {
     border: 1px solid rgba(180, 180, 180, 0.65);
-    width: 36%;
+    width: 86%;
 }
 
 main p {
@@ -86,7 +86,7 @@ footer {
 
 @media screen and (max-width: 640px) {
     #cover-img {
-        width: 80%;
+        width: 98%;
     }
     header nav a {
         padding: 3px 0 3px 0;
