@@ -21,6 +21,7 @@ body {
     font-weight: 400;
     transition: 0.5s;
     -webkit-transition: 0.5s;
+    margin: 0;
 }
 
 a {
@@ -50,6 +51,7 @@ a:hover {
 
 header {
     margin-bottom: 30px;
+    text-align: center;
 }
 
 header nav {
@@ -81,7 +83,9 @@ main p {
 
 footer {
     margin-top: 30px;
+    margin-bottom: 20px;
     border-top: 1px solid rgba(180, 180, 180, 0.65);
+    text-align: center;
 }
 
 @media screen and (max-width: 640px) {
