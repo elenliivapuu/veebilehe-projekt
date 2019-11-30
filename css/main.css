@@ -77,6 +77,16 @@ header nav a {
     width: 86%;
 }
 
+#menu-img {
+    border: 1px solid rgba(180, 180, 180, 0.65);
+    width: 66%;
+}
+
+#pause-img {
+    border: 1px solid rgba(180, 180, 180, 0.65);
+    width: 36%;
+}
+
 main p {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -96,8 +106,18 @@ footer {
 }
 
 @media screen and (max-width: 640px) {
+    .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
     #cover-img {
         width: 98%;
+    }
+    #menu-img {
+        width: 80%;
+    }
+    #pause-img {
+        width: 70%;
     }
     header nav a {
         padding: 3px 0 3px 0;
